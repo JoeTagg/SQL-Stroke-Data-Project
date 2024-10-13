@@ -37,7 +37,6 @@ Goal: Not so much of an analysis, but an easy way to pull off a list of patients
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/873d8719-a605-4a10-af6d-de8c387bebfa">
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/dcf1caaf-eb26-4e64-8f5b-717ce75d884a">
 
-
 ### Query 3.1: Total number of patients who had a stroke
 
 Goal: Followed by a count of those records. 249 patients in total, from our entire dataset (5k+), recorded has having had a stroke
@@ -103,7 +102,7 @@ Goal: I then used used the CAST function to assign the 'bmi' column the data typ
 
 ### Query 8: Combine active smoker and non-smoker information
 
-Goal: xxx
+Goal: Another query focused on daa
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c34f6835-9586-4d81-b43f-e06eb38ea54d">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/2ca9280f-a590-4b4d-a1a4-4ce1d54283f9">
