@@ -102,21 +102,21 @@ Goal: I then used used the CAST function to assign the 'bmi' column the data typ
 
 ### Query 8: Combine active smoker and non-smoker information
 
-Goal: Another query focused on daa
+Goal: Another query focused on data preparation and transformation, rather than analysis. I wanted to get familiar with using the UNION operator to combine the results of two queries. It ensures there are no duplicate rows included. The UNION ALL operator would retain duplicates, if desired.
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c34f6835-9586-4d81-b43f-e06eb38ea54d">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/2ca9280f-a590-4b4d-a1a4-4ce1d54283f9">
 
 ### Query 9: Calculate average glucose level for patients over 50
 
-Goal: xxx
+Goal: NExt up was a query to calculate the average glucose level for patients over the age of 50. This used a Common Table Expression (or CTE), which defines a temporary result set, that can be referenced later in the query. WITH defined the CTE at the start of the query, and the temporary table created was 'older_patients'. The result shows a value of 119, which would then be interesting to plot against different age groups, to see whether there's a correlation. Perhaps it increases with age?
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/3bda09f1-c9c8-4b36-8c14-c7894507e0f2">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/2c4d818e-b754-46d8-ac5a-f50b63f65957">
 
 ### Query 10: Change average glucose level data type and compare results
 
-Goal: xxx
+Goal: This query focused on how to best handle different data types. CAST is useful when you need to standardise data types for calculations or reporting. Ave_glucose_level was originally a decimal/floating-point value. I used CAST to convert it to an integer. Rather than rounding the number up/down based on the decimal values, an integer truncates the number, simply removing everything after the decimal. A number that was 208.9 would become 208, despite pretty much being 209. I thought it would be interesting to compare the newly created integer value to a rounded value, to see how often the two numbers differ. The answer, often! When dealing with something as important as medical data, those small inconsistencies could certainly have a big impact on the patient.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/0341a4fc-8d3e-4905-88ed-c7d480927a7f">
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/386941d8-17ba-42e9-9478-539efc41605a">
