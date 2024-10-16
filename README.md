@@ -146,7 +146,7 @@ Goal: Knowing that smoking was definitely linked to increased risk of stroke, an
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/8a3f5ed8-1aa2-47fc-ba2c-931dd9498546">
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/fd9ee5bf-9c31-4604-b21d-b8f46f5f6d3b">
 
-### Query 12.2: Number of stroke cases by residence type and smoking status
+### Query 12.2: Never smoked status with stroke risk predictors included
 
 Goal: I predicted that factors like high bmi, high average glucose level, marked as hypertensive or having heart disease, and simply those of older age would likely increase stroke rate. My guess was that those would never smoked, and were also free of the above attributes, would have some of the lowest stroke rates. And that certainly seems to be the case. Those who had never smoked, and lived in urban residencies, had 4 times less stroke prevalence once those additional factors were taken into account. For never smoked in the rural residence type, they had 11 times less stroke rates, once those predictive factors were incorporated.
 
